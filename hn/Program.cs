@@ -22,8 +22,6 @@ namespace hn
             }
             else if (args[0] == "/parallel")
             {
-                //continue here tomorrow
-                //https://msdn.microsoft.com/en-us/library/dd460713(v=vs.110).aspx
                 Parallel.For(0, 101,
                   index =>  {
                       HappyNumber hn = new HappyNumber(index);
